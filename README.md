@@ -7,6 +7,7 @@ This analysis aims to deploy deep-learning and Neural networks to assist the Alp
 In this section, I explored the data to ensure it is processed and cleaned in a manner suitable for machine learning. Secondly, I used exploratory data analysis techniques to gain insights into the data distribution and identify patterns or correlations. This model removed the EIN and NAME columns; additionally, ‘Other’ replaced the CLASSIFICATION and APPLICATION_TYPE columns due to high fluctuations, as shown in Figure 1A below. Once the data was deemed suitable, I split the dataset into training and testing sets. The target variable for the model is “IS_SUCCESSFUL” and is verified by the value of 1 for YES and 0 for NO, as shown in Figure 1B below:
 
 ### Figure 1A: Model 1 Processed Data for Machine Learning
+<<<<<<< HEAD
  ![Process](images/Processed_data.png)
  
  
@@ -17,6 +18,9 @@ In this section, I explored the data to ensure it is processed and cleaned in a 
  
  
  In this project, I used deep learning neural to predict if fund recipients of the Alphabet Soup company will be successful. 
+=======
+
+>>>>>>> 5b5a4b5477f19db986040846f0bcaa607e3cf511
 
 Tools and libraries used are:
 
