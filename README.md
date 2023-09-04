@@ -44,7 +44,7 @@ The deeper the network, the more abstract and complex the features it can learn 
 * End-to-end learning: Multiple layers allow the model to directly map the raw input data to the desired output, avoiding the need for manual feature engineering.
 When choosing the number of layers for a model, it is essential to consider that deeper models are not always better. Very deep networks can suffer from vanishing or exploding gradients, making training challenging. Additionally, deeper models require more computational resources and may be prone to overfitting when insufficient training data is unavailable. One should choose a neural network based on the complexity of the problem and the availability of data and computational resources. For some tasks, shallow networks might be sufficient; as seen in the optimized model, three layers with an additional column yield a desirable result of an accuracy score of 75% or higher.
    
-##Tools and libraries used are:
+## Tools and libraries used are:
 
 * Python
 * Google Colab
