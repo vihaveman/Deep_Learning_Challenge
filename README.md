@@ -7,8 +7,6 @@ This analysis aims to deploy deep-learning and Neural networks to assist the Alp
 In this section, I explored the data to ensure it is processed and cleaned in a manner suitable for machine learning. Secondly, I used exploratory data analysis techniques to gain insights into the data distribution and identify patterns or correlations. This model removed the EIN and NAME columns; additionally, ‘Other’ replaced the CLASSIFICATION and APPLICATION_TYPE columns due to high fluctuations, as shown in Figure 1A below. Once the data was deemed suitable, I split the dataset into training and testing sets. The target variable for the model is “IS_SUCCESSFUL” and is verified by the value of 1 for YES and 0 for NO, as shown in Figure 1B below:
 
 ### Figure 1A: Model 1 Processed Data for Machine Learning
-![image](https://github.com/vihaveman/Deep_Learning_Challenge/assets/120049344/1ba13c94-49c9-4da4-bdda-91dd39023b3c)
-
 
 
 Tools and libraries used are:
